@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+}
+.first-layer{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.main-layer{
+    background-color: rgb(51, 50, 50);
+    margin: 100px;
+    padding: 20px;
+    height: 85%;
+    width: 30%;
+    text-align: center;
+    border-radius: 20px;
+}
+#btn li{
+    background-color: rgb(61, 57, 57);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    text-decoration: none;
+    list-style: none;
+    color: azure;
+}
+#btn li:hover{
+background-color:rgb(193, 255, 69);
+color: black;
+cursor: pointer;
+}
