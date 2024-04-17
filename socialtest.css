@@ -31,3 +31,12 @@ background-color:rgb(193, 255, 69);
 color: black;
 cursor: pointer;
 }
+@media (max-width:900px) {
+    .main-layer img{
+        width: 100px;
+        height: 100px;
+    }
+    #btn li{
+        font-size: 15px;
+    }      
+}
