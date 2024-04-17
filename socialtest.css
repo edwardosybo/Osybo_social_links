@@ -32,6 +32,9 @@ color: black;
 cursor: pointer;
 }
 @media (max-width:900px) {
+    .main-layer{
+        width: 500px;
+    }
     .main-layer img{
         width: 100px;
         height: 100px;
